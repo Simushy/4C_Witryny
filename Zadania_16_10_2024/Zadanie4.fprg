@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Uczen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-16 02:53:37 PM"/>
+        <attribute name="created" value="VWN6ZW47MjE0LTEwOzIwMjQtMTAtMTY7MDI6NTA6MDggUE07MjA4NQ=="/>
+        <attribute name="edited" value="VWN6ZW47MjE0LTEwOzIwMjQtMTAtMTY7MDI6NTM6MzcgUE07MTsyMTk4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, wynik, tmp" type="Integer" array="False" size=""/>
+            <assign variable="wynik" expression="1"/>
+            <input variable="a"/>
+            <assign variable="tmp" expression="a"/>
+            <while expression="tmp != 1">
+                <assign variable="wynik" expression="wynik * tmp"/>
+                <assign variable="tmp" expression="tmp - 1"/>
+            </while>
+            <output expression="&quot;Silnia z &quot; &amp; a &amp; &quot; jest r&#243;wna &quot; &amp; wynik" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

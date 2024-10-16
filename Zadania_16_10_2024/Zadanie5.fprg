@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Uczen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-16 02:58:12 PM"/>
+        <attribute name="created" value="VWN6ZW47MjE0LTEwOzIwMjQtMTAtMTY7MDI6NTM6MzkgUE07MjA5Mg=="/>
+        <attribute name="edited" value="VWN6ZW47MjE0LTEwOzIwMjQtMTAtMTY7MDI6NTg6MTIgUE07MTsyMTk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, dzielniki, tmp" type="Integer" array="False" size=""/>
+            <assign variable="dzielniki" expression="0"/>
+            <input variable="a"/>
+            <assign variable="tmp" expression="a"/>
+            <while expression="dzielniki &lt;= 2 &amp;&amp; tmp &gt;=1">
+                <if expression="a % tmp == 0">
+                    <then>
+                        <assign variable="dzielniki" expression="dzielniki + 1"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="tmp" expression="tmp - 1"/>
+            </while>
+            <if expression="dzielniki &lt;=2">
+                <then>
+                    <output expression="&quot;Liczba &quot; &amp; a &amp; &quot; jest pierwsza&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Liczba &quot; &amp; a &amp; &quot; nie jest pierwsza&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

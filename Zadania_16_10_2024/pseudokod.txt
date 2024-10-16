@@ -1,0 +1,68 @@
+Zadanie 1
+
+deklaracja input, suma
+suma równa się 0
+
+rób{
+	wprowadź input
+	suma równa się suma dodać input
+
+}dopóki input jest różny od 0
+
+wyświetl suma
+
+Zadanie 2
+
+deklaracja a, b, c
+wprowadź a
+wprowadź b
+wprowadź c
+
+jeśli a jest większe od b i a jest większe od c
+	wyświetl a
+
+jeśli b jest większe od c i b jest większe od a
+	wyświetl b
+
+jeśli c jest większe od b i c jest większe od a
+	wyświetl c
+
+jeśli a jest równe b i a jest równe c
+	wyświetl a
+
+Zadanie 3
+
+deklaracja a
+wprowadź a
+jeśli reszta z dzielenia a przez 2 jest równa 0
+	wyświetl "a jest parzysta"
+w przeciwnym wypadku
+	wyświetl "a nie jest parzysta"
+
+Zadanie 4
+
+deklaracja a, wynik, tmp
+wynik jest równy 1
+wprowadź a
+tmp jest równe a
+dopóki tmp jest różne od 1{
+	wynik jest równy wynik razy tmp
+	tmp jest równe tmp odjąć 1
+}
+wyświetl "Silnia z a jest równa wynik"
+
+Zadanie 5
+
+deklaracja a, dzielniki, tmp
+dzielniki jest równe 0
+wprowadź a
+tmp jest równe a
+dopóki dzielniki jest mniejsze bądź równe 2 i tmp jest większe bądź równe 1{
+	jeśli reszta dzielenia a przez tmp jest równa 0
+		dzielniki jest równe dzielniki + 1
+	tmp jest równe tmp - 1
+}
+jeśli dzielniki jest mniejsze bądź równe 2
+	wyświetl "Liczba a jest pierwsza"
+w przeciwnym wypadku
+	wyświetl "Liczba a nie jest pierwsza"
