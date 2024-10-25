@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadanie5</title>
+  </head>
+  <body>
+    <script>
+      function powitaj(imie, wiek = 18) {
+        if (imie == null) imie = "nieznajomy";
+        return `Cześć ${imie}! Masz ${wiek} lat.`;
+      }
+      console.log(powitaj());
+      console.log(powitaj("adam"));
+      console.log(powitaj("kacper", 20));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadanie3</title>
+  </head>
+  <body>
+    <script>
+      let globalVar = 2;
+      function checkScope() {
+        let localVar = 3;
+        console.log("Checkscope localVar = " + localVar);
+        console.log("Checkscope globalVar = " + globalVar);
+      }
+      checkScope();
+      console.log("globalVar = " + globalVar);
+      console.log("localVar = " + localVar);
+    </script>
+  </body>
+</html>
